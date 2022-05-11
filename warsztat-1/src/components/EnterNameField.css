@@ -1,0 +1,31 @@
+.enterNameField {
+  height: 50px;
+  width: 400px;
+  margin: 50px 0 25px 0;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.enterNameField button {
+  background-color: #0066ff;
+  color: white;
+  border: 0;
+
+  flex-basis: 80px;
+}
+
+.enterNameField button:hover {
+  background-color: #003399;
+  cursor: pointer;
+}
+
+.enterNameField input {
+  border: 0;
+  width: 60%;
+  padding: 0 10px;
+  font-size: 20px;
+
+  flex-grow: 1;
+}
